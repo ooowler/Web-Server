@@ -1,0 +1,639 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*------ tools ------*/
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-top {
+    margin-bottom: 70px;
+}
+
+.header-top::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.bottom {
+    margin-top:50px;
+}
+
+/*------ main-header ------*/
+.main-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.promo {
+    width: 300px;
+    min-height: 150px;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    position: absolute;
+}
+
+.main-text {
+    height: 100px;
+}
+
+.button {
+    max-width: 200px;
+    height: 50px;
+    margin: 20px auto auto;
+}
+
+.main-menu {
+    float: right;
+    width: 680px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    min-height: 40px;
+}
+
+/*------ subjects ------*/
+.about {
+    margin: auto;
+    width: 680px;
+    margin-top: 10px;
+
+    min-height: 40px;
+}
+
+.header-subjects {
+    margin-bottom: 50px;
+}
+
+.subjects {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.subjects .container::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.subjects-item {
+    float: left;
+    width: 120px;
+    min-height: 130px;
+    margin-left:60px;
+}
+
+.subjects-item:last-child {
+    margin-right: 0;
+}
+
+
+/*------ examples ------*/
+
+.examples {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-examples {
+    margin-bottom: 70px;
+}
+
+.examples-item {
+    margin-bottom: 100px;
+}
+
+.examples-item::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.examples-author {
+    float: left;
+    padding-left: 170px;
+    width: 130px;
+
+    min-height: 140px;
+}
+
+.examples-content-right {
+    float: right;
+    width: 300px;
+    margin:0 100px 0 0;
+
+    min-height: 140px;
+}
+
+.examples-content-left {
+
+    float: left;
+    width: 300px;
+    margin: 0 0 0 100px;
+
+    min-height: 140px;
+}
+
+/*------ contact ------*/
+
+
+.header-contacts {
+    margin-bottom: 40px;
+}
+
+.header-contacts::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.contacts .container::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.contacts-item {
+    float: left;
+    width: 120px;
+    height: 130px;
+    margin-right:30px;
+    position: relative;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.content1 {
+    display: none;
+    width: 575px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+    position: absolute;
+    top: 130px;
+}
+.content2 {
+    display: none;
+    width: 575px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+    position: absolute;
+    top: 130px;
+    left: -155px;
+}
+.content3 {
+    display: none;
+    width: 575px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+    position: absolute;
+    top: 130px;
+    left: -310px;
+}
+.content4 {
+    display: none;
+    width: 575px;
+    height: 100px;
+    margin: 30px auto 30px auto;
+    position: absolute;
+    top: 130px;
+    left: -465px;
+}
+
+.contacts-item:nth-child(1):hover .content1 {
+    display: block;
+}
+
+.contacts-item:nth-child(2):hover .content2 {
+    display: block;
+}
+
+.contacts-item:nth-child(3):hover .content3 {
+    display: block;
+}
+
+.contacts-item:nth-child(4):hover .content4 {
+    display: block;
+}
+
+.contacts-item:nth-child(1) {
+    margin-left: 205px;
+}
+
+
+
+.contacts-title {
+    margin: 0;
+    margin-bottom: 65px;
+
+    min-height: 50px;
+}
+
+.contacts-item::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+.contacts {
+    padding-top: 85px;
+    padding-bottom: 180px;
+}
+
+.contacts .container {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.contacts-form {
+    float: left;
+    width: 640px;
+
+    min-height: 420px;
+}
+
+.contacts-instruction {
+    float: right;
+    width: 300px;
+
+    min-height: 420px;
+}
+/*------ pdf ------*/
+
+.pdf {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.pdf .container {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.pdf-item:last-child {
+    margin-right: 0;
+}
+
+/*------ footer ------*/
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 75px;
+
+}
+
+.footer-top::after,
+.footer-bottom::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+.footer-menu {
+    float: left;
+    width: 150px;
+    margin: 25px 70px 25px auto;
+    min-height: 185px;
+}
+
+.footer-menu:first-child {
+    margin-left:70px;
+}
+
+.footer-menu:last-child {
+    margin-right:0;
+}
+
+.footer-bottom {
+    margin-top: 45px;
+}
+
+.copyright {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+
+    min-height: 45px;
+}
+
+.footer-social-promo {
+    float: left;
+    width: 420px;
+
+    min-height: 45px;
+}
+
+.footer-social {
+    min-height: 50px;
+
+    position: absolute;
+    bottom:-135px;
+}
+
+.footer-button {
+    height: 50px;
+    position: absolute;
+    bottom: -135px;
+}
+
+/*------ colors ------*/
+.gray_border {
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+
+/*------ images ------*/
+.none {
+    width:200px;
+    height: 170px;
+    position: absolute;
+    left: 620px;
+}
+
+.none2 {
+    width:200px;
+    height: 170px;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+}
+
+.none3 {
+    width:200px;
+    height: 170px;
+    position: absolute;
+    left: 620px;
+    top: -10px;
+}
+
+.none4 {
+    width:200px;
+    height: 170px;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+.gl0, .gl1, .gl2, .gl3 {
+    position: relative;
+}
+
+.gl0:before, .gl1:before, .gl2:before, .gl3:before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 0;
+    height: 20px;
+    padding: 2px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: "Courier New", monotype, serif;
+    white-space: nowrap;
+}
+
+.gl0 {
+    box-shadow: inset 0 0 0 2px blue;
+    background: rgba(0, 0, 255, .1);
+}
+
+.gl0:before {
+    color: #fff;
+    background: rgba(0, 0, 255, .9);
+}
+
+.gl1 {
+    box-shadow: 0 0 0 2px green;
+    background: rgba(0, 128, 0, .1);
+}
+
+.gl1:before {
+    color: #fff;
+    background: rgba(0, 128, 0, .9);
+}
+
+.gl2 {
+    box-shadow: 0 0 0 2px rgb(255, 45, 82);
+    background: rgba(255, 45, 82, .1);
+}
+
+.gl2:before {
+    color: #fff;
+    background: rgba(255, 45, 82, .9);
+}
+
+.gl3 {
+    box-shadow: 0 0 0 2px rgb(234, 255, 45);
+    background: rgba(234, 255, 45, .1);
+}
+
+.gl3:before {
+    color: #000;
+    background: rgba(234, 255, 45, .8);
+}
+
+.main-header:before {
+    content: ".main-header";
+}
+
+.container:before {
+    content: ".container";
+    top: -25px;
+    left: -2px;
+}
+
+.header-top:before {
+    content: ".header-top";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.header-contacts:before {
+    content: ".header-contacts";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.header-subjects:before {
+    content: ".header-subjects";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.header-examples:before {
+    content: ".header-examples";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.logo:before {
+    content: ".logo";
+}
+
+.main-menu:before {
+    content: ".main-menu";
+}
+
+.button:before {
+    content: ".button";
+}
+
+.main-text:before {
+    content: ".main-text";
+}
+
+.about:before {
+    content: ".about";
+}
+
+.promo:before {
+    content: ".promo";
+}
+
+.pdf-item:before {
+    content: ".pdf-item";
+}
+
+.footer-button:before {
+    content: ".footer-button";
+}
+.contacts-item-big:before {
+    content: ".contacts-item-big";
+}
+.contacts-item:before {
+    content: ".contacts-item";
+}
+.contacts-info:before {
+    content: ".contacts-info";
+}
+.subjects:before {
+    content: ".subjects";
+}
+
+.subjects-item:before {
+    content: ".subjects-item";
+}
+.subjects-item-big:before {
+    content: ".subjects-item-big";
+}
+
+
+.examples:before {
+    content: ".examples";
+}
+
+.examples-title:before {
+    content: ".examples-title";
+}
+
+.examples-item:before {
+    content: ".examples-item";
+    top: -25px;
+    left: -2px;
+}
+
+.examples-author:before {
+    content: ".examples-author";
+}
+
+.examples-content-right:before {
+    content: ".examples-content-right";
+}
+
+.examples-content-left:before {
+    content: ".examples-content-left";
+}
+
+.contacts:before {
+    content: ".contacts";
+}
+.pdf:before {
+    content: ".pdf";
+}
+
+.contacts-title:before {
+    content: ".contacts-title";
+}
+
+.content1:before {
+    content: ".content1";
+}
+
+.content2:before {
+    content: ".content2";
+}
+
+.content3:before {
+    content: ".content3";
+}
+
+.content4:before {
+    content: ".content4";
+}
+
+.contacts-form:before {
+    content: ".contacts-form";
+}
+
+.contacts-instruction:before {
+    content: ".contacts-instruction";
+}
+
+.main-footer:before {
+    content: ".main-footer";
+}
+
+.footer-top:before {
+    content: ".footer-top";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.footer-bottom:before {
+    content: ".footer-bottom";
+    top: -25px;
+    left: auto;
+    right: -2px;
+}
+
+.footer-menu:before {
+    content: ".footer-menu";
+}
+
+.copyright:before {
+    content: ".copyright";
+}
+
+.footer-social-promo:before {
+    content: ".footer-social-promo";
+}
+
+.footer-social:before {
+    content: ".footer-social";
+}
