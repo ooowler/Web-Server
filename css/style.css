@@ -356,8 +356,6 @@ body {
 }
 .item:nth-child(4):hover .dropdown-content4 {
     display: block;
-    /*opacity: 1;*/
-    /*transition: all 1s;*/
 }
 .item img {
     width: 100px;
