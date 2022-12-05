@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <title>JS</title>
+</head>
+<body>
+
+<div class="buttons">
+    <table class="table_form">
+        <tr>
+            <th><button class="button" onclick="addTable()">Создать таблицу</button></th>
+            <th><button class="button" onclick="addRow()" id="btn1">Добавить строку</button></th>
+            <th><button class="button" onclick="deleteRow()" id="btn2">Удалить строку №</button></th>
+        </tr>
+
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                <form>
+                    <label for="task">Task:</label><br>
+                    <input type="text" id="task" name="task" value="some_task"><br>
+                    <label for="deadline">DeadLine:</label><br>
+                    <input type="text" id="deadline" name="deadline" value="31.12.2022">
+                </form>
+            </th>
+            <th>
+                <form>
+                    <label for="id">ID:</label><br>
+                    <input type="text" id="id" name="id" value="1"><br>
+                </form>
+            </th>
+        </tr>
+    </table>
+
+
+</div>
+
+
+<div class="table_block">
+    <div id="toast"></div>
+    <table class="task_table" id="root"></table>
+</div>
+
+<script src="script/main.js"></script>
+</body>
+</html>
+
