@@ -1,2 +1,2 @@
 # WebMyPage
-website about me
+connected to bd (phpadmin)
